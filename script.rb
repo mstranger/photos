@@ -1,3 +1,6 @@
+# TODO: log if no files 
+# TODO: tests
+
 src = "folders/jpg"
 target = "folders/raw"
 
@@ -18,8 +21,3 @@ end
 
 puts "DONE!"
 
-# result = target_files.reject do |file|
-#   bases.include? File.basename(file, File.extname(file))
-# end
-#
-# p result
